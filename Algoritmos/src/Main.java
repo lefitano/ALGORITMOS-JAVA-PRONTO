@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);  //CRIO OS OBJETOS DE ACORDO COM AS CLASSES DE CADA ARQUIVO PARA LER OS SCANNERS COM OS DADOS
         Somatorio somatorio = new Somatorio();
         Numeroprimo numeroprimo = new Numeroprimo();
         Fibonacci fibonacci = new Fibonacci();
